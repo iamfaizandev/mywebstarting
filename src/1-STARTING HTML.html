@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is description">
+  <meta name="Keyword" content="html,html tutoriald,web development">
+  <meta name="robots" content="INDEX,FOLLOW">
+  <title>WEB Note</title>
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="javas.js/1st javasct.js">
+  <style>
+    body{
+    margin: 100px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    font-size: 25px;
+}
+h1{
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    background-color: black;
+}
+h2{
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    background-color: black;
+}
+h3{
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    background-color: black;
+    
+}
+h5{
+    margin-top: -30px;
+    font-size: 40px;
+    color: rgb(255, 246, 245);
+    background-color: teal;
+    width: 200px;
+    border-radius: 20px;
+}
+p{
+    font-size: 25px;
+    color: black;
+
+}
+
+
+  </style>
+</head>
+
+<body>
+  <h5>Web Note </h5>
+   <header> This Web Page Many Tags and Attributes Use 
+     <ol type="1">
+       <li>Heading</li>
+       <li>Lorem dummy text </li>
+       <li>Use of Strong And Em</li>
+       
+       <li>Avoid br tag </li>
+       <li>Achor or Image Tag</li>
+       <li>List And Table</li>
+       <li> Form and Div  </li>
+       <li> Option List  </li>
+       
+     </ol>
+   </header>
+ 
+  <h2>DOWN ABOUT HEADING</h2>
+  <!--  Lorem23 for   dummy text with23 words -->
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+    Doloremque omnis ut ad culpa quasi voluptates laudantium.
+    <strong>This is Strong </strong> Reiciendis tempore sint ut.
+    <em>This emphise</em> ||||<i>this is itlaic</i> Fuga laboriosam quidem
+    <b>Bold is here</b> quas ipsam ad reprehenderit earum numquam quis?
+  </p>
+  
+  <hr>
+
+  <h1> Achor Tag</h1>
+  <a href="https://www.google.com" target="_blank">Go To Google</a> <br>
+  <a href="https://www.facebook.com" target="_blank">Go To Facebook</a> <br>
+  <a href="https://www.twitter.com" target="_blank">Go To Twitter</a> <br>
+  <a href="https://www.snapchat.com" target="_blank">Go To Snapchat</a> <br>
+  <a href="/HTML/1stsamsung.html" target="_blank"> Go To My Web Site</a>
+  <br>
+
+  <h2>Images Tag</h2>
+  <!-- image is not present hence alt text is show -->
+  <img src="Faizan.jpg" alt="Faizan face" />
+  <img src="https://source.unsplash.com/user/erondu/400x400" alt="" /> this
+  image add from unsplash source
+  <hr>
+
+  <h3>LIST</h3>
+  <ul type="circle">
+    <li>This is My my Unordered List</li>
+    <li>This is My my Unordered List</li>
+    <li>This is My my Unordered List</li>
+    <li>This is My my Unordered List</li>
+
+    <ul>
+      <li>Nested List</li>
+      <li>Nested List</li>
+      <li>Nested List</li>
+    </ul>
+  </ul>
+
+  <ol type="i">
+    <li>This is My Ordered List</li>
+    <li>This is My Ordered List</li>
+    <li>This is My Ordered List</li>
+    <li>This is My Ordered List</li>
+  </ol>
+  <hr>
+  <h2>TABLE</h2>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>DOB</th>
+        <th>ID</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>FZNN</td>
+        <td>06/09/69</td>
+        <td>256548</td>
+      </tr>
+      <tr>
+        <td>HNN</td>
+        <td>06/09/79</td>
+        <td>254048</td>
+      </tr>
+      <tr>
+        <td>HNN</td>
+        <td>06/09/79</td>
+        <td>254048</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br />
+  <br />
+  <hr />
+  <h2>HTML Form</h2>
+  
+  <form action="/HTML/submited form.html" method="post" target="_blank">
+
+   
+    <div>
+      <label for="name"> Name </label>
+      <input type="text" name="Name" placeholder="FirstName" autocomplete="off"  id="name">
+    </div>
+
+    
+    <div>
+      <label for="LastName"> Last Name :</label>
+      <input type="text" name="Name" placeholder="LastName" autocomplete="off" id="LastName">
+    </div>
+    <!-- for breakline use <div> tag avoid <br> 
+            tag as much as u can 
+          add spcae between input use CSS-->
+    
+    <div> 
+      <label for="yes"> Are You Eligiable :  </label>
+      <input type="checkbox" name="yes" id="yes"> </div>
+    Gender : Male <input type="radio" name="MyGender"> FeMale <input type="radio" name="MyGender">
+    <!-- if u use same word in Name then u dont need do use value Gender sirf ek hi select hoga -->
+    <div>
+      Tell Us About YourSelf : <br> <textarea name="myText" id="" cols="30" rows="10"></textarea>
+    </div>
+       <br> <br>
+      <!-- inside input tag id attribute fill name wahi jo label ke inside for me likha hai -->
+    <div>
+      <hr>
+      <h1>OPTION LIST  </h1>
+      <label for="Car"> Car </label>
+      <select name="mycar" id="Car">
+        <option value="bmw"> BMW </option>
+        <option value="indica"> INDICA </option>
+        <option value="tata" selected> TATA </option>
+        <!-- if u want by defluate any option selected rhe then use selected -->
+      </select>
+    </div>
+  </form>
+
+</body>
+
+</html>

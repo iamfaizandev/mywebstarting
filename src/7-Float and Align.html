@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Alignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+    <style>
+        *{
+       box-sizing: border-box;
+        }
+        body{
+            font-family: 'PT Mono', monospace;
+        }
+      .continer{
+        width: 900px;
+        border: 5px solid purple;
+        margin: 33px auto;
+        background-color: brown;
+      }
+      .item{
+        border: 3px solid rgb(5, 54, 5);
+        margin: 12px 3px;
+        padding: 12px 3px;
+        background-color: rgb(216, 174, 163);
+      }
+      #tv{
+          float: left;
+          width: 48%;
+      }
+      #mobile{
+        float: left;
+          width: 48%;
+      }
+      #laptop{
+        /* float: left; */
+          width: 100%;
+          clear: left;
+          clear: both;
+      }
+      p,h3{
+        /* text-align: right;
+        text-align: left;
+        text-align: center; */
+        text-align: justify;
+        }
+        h1{
+          margin: 23px auto;
+          width: 455px;
+        }
+    </style>
+</head>
+<body>
+  <div class="continer">
+      <h1>WelCome To My Store</h1>
+        <div id="tv" class="item">
+            <h3>TV</h3>
+            <p id="tvpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis saepe eveniet, iste quibusdam mollitia aut est distinctio placeat voluptatum accusantium tempora voluptatibus minus deserunt esse cumque error labore quas ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis hic totam velit iste officia maxime. Aspernatur tenetur consequatur quisquam alias iste ipsa qui vero odio, voluptatum, laudantium officia, cum cupiditate quos recusandae sapiente sequi!</p>
+        </div>
+        <div id="mobile" class="item">
+            <h3>Mobile</h3>
+            <p id="Mobilespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis saepe eveniet, iste quibusdam mollitia aut est distinctio placeat voluptatum accusantium tempora voluptatibus minus deserunt esse cumque error labore quas ipsa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis odit voluptatum maiores natus aperiam quaerat necessitatibus numquam pariatur sit velit consequuntur fuga blanditiis, eveniet perspiciatis! Nemo molestias placeat dolorum saepe recusandae magnam reiciendis repellendus!</p>
+        </div>
+        <div id="laptop" class="item">
+            <h3>Laptop</h3>
+            <p id="laptopspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis saepe eveniet, iste quibusdam mollitia aut est distinctio placeat voluptatum accusantium tempora voluptatibus minus deserunt esse cumque error labore quas ipsa.</p>
+        </div>
+        <div id="smartwatch" class="item">
+            <h3>Smartwatch</h3>
+            <p id="smartwatchpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis saepe eveniet, iste quibusdam mollitia aut est distinctio placeat voluptatum accusantium tempora voluptatibus minus deserunt esse cumque error labore quas ipsa.</p>
+        </div>
+    </div>
+</body>
+</html>

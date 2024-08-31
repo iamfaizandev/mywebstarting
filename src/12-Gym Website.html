@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <title>FZN GYM Website</title>
+
+</head>
+<link rel="stylesheet" href="CSS.css/GYM.css">
+<style>
+    /* CSS Reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('pics/sven-mieke-MsCgmHuirDo-unsplash.jpg');
+        background-size: cover;
+        /* background-position:-1067px -1474px; */
+        background-repeat: no-repeat;
+        color: rgb(255, 255, 255);
+        font-family: 'Baloo Bhai 2';
+    
+
+
+    }
+
+    .left {
+        /* border: 3px solid red; */
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 50px;
+    }
+
+    .left img{
+        width: 73px;
+        
+        filter: invert(100%);
+        
+        
+    }
+    
+    .left div{
+        text-align: center;
+        line-height: 15px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    .left div:hover{
+        color: violet;
+    }
+    .mid {
+        
+        display: block;
+        width: 42%;
+        margin: 20px auto;
+
+    }
+
+    .right {
+       
+        position: absolute;
+        display: inline-block;
+        right: 34px;
+        top: 33px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 14px 9px;
+
+    }
+
+    .navbar li a:hover,.navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+    .btn{
+        font-family: 'Baloo Bhai 2';
+        margin: 0px 9px;
+        color: white;
+        background: linear-gradient(330deg,#610909,black,#635757);
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(30, 30, 30);
+        border: 1px solid red;
+    }
+    .container{
+        border: 2px solid rgb(255, 255, 255);
+        box-shadow: 0px 2px 4px 5px rgb(27 75 27);
+        /* background-image: url('pics/finn-hackshaw-FQgI8AD-BSg-unsplash.jpg');
+        background-position: center top;
+        background-size: cover;
+        filter: brightness(113%) opacity(50%); */
+
+        margin: 106px 80px;
+        width: 33%;
+        padding: 75px;
+        border-radius: 28px;
+    }
+    .formgroup input{
+        text-align: center;
+        display: block;
+        color: black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+        font-size: 14px;
+        width: 500px;
+        padding: 4px;
+        border: 2px solid black;
+        border-radius: 8px;
+        margin: 11px auto;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 102%;
+        margin: 22px auto;
+
+
+    }
+    .container input:focus{
+        /* color: rgb(10, 44, 12); */
+        background-color: bisque;
+    }
+</style>
+
+<body>
+    
+    <header class="header">
+        <!-- left box for logo  -->
+        <div class="left">
+            <img src="pics/FZn-removebg-preview.png" alt="logo">
+            <div>FZ Fitness</div>
+        </div>
+        <!-- mid box for nvbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"> Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitnes Calculator</a></li>
+                <li><a href="#">Contact Us</a> </li>
+            </ul>
+
+        </div>
+        <!-- right box for home button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1> Join The Best Gym of Patna Now</h1>
+        <form action="">
+             <div class="formgroup">
+                 <input type="text" name="" id="" placeholder="Enter Your Name">
+             </div>
+             <div class="formgroup">
+                 <input type="text" name="" id="" placeholder="Enter Your Age">
+             </div> 
+             <div class="formgroup">
+                 <input type="text" name="" id="" placeholder="Enter Your Gender">
+             </div>
+             <div class="formgroup">
+                 <input type="text" name="" id="" placeholder="Enter Your Locality">
+             </div>
+             <div class="formgroup">
+                 <input type="tel" name="" id="" placeholder="Enter Your Phone Number">
+             </div> 
+             <div class="formgroup">
+                 <input type="email" name="email" id="" placeholder="Enter Your Email id">
+             </div>
+             <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

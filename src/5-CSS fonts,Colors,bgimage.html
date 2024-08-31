@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>CSS FONTS,COLORS,background-image </title>
+     <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Pacifico&display=swap" rel="stylesheet">
+     <style>
+       p{
+           font-family: 'Courier New';
+           line-height: 1.3em;
+           font-weight: bold;
+       }
+       #fonts{
+           line-height: 1.3;
+           font-variant: small-caps;
+           
+        }
+        span{
+            font-weight: bold;
+            color: red ;
+            font-style: italic;
+       }
+       .Explain{
+           font-family: Arial, Helvetica, sans-serif;
+           color: darkblue;
+           font-size: 25px;
+       }
+       li{
+           font-size: 30px;
+       }
+       a{
+        font-family: 'Satisfy', cursive;
+        color: chocolate;
+       }
+       #FirstPara{
+           color: blueviolet;
+       }
+       #SecondPara{
+         color: rgb(180, 97, 3);
+       }
+       #ThirdPara{
+           color: #3498DB;
+           
+       }
+       #firstPara{
+           background-color: brown;
+           height: 100px;
+           width: 455px;
+           border: 5px solid rgb(3, 46, 187);
+           /* border-width: 5px;
+           border-color: rgb(255, 196, 0);
+           border-style: solid; */
+           border-radius: 10px;
+       }
+       #secondPara{
+           background-color: #3498DB;
+           height: 100px;
+           width: 455px;
+           border-top: 4px solid violet;
+           border-bottom: 4px solid orange;
+           border-right: 4px solid yellowgreen;
+           border-left: 4px solid blue;
+           border-top-left-radius: 15px;
+           border-bottom-left-radius: 35px;
+           border-top-right-radius: 25px;
+           border-bottom-right-radius: 45px;
+       }
+       #thirdPara{
+           height: 1100px;
+           width: 455px;
+           color: white;
+           font-size: 30px;
+           background-image: url('pics/copy.jpg');
+           border: 5px solid olivedrab;
+           background-repeat: no-repeat; 
+           background-position: center bottom;
+           /* background-position: 155px 15px; */
+           
+       }
+
+     </style>
+</head>
+<body>
+    <h1> &#9733;CSS <span> Fonts</span>  And Related Properties</h1>
+    <p> Lets Play With fonts.It is very Exciting</p>
+    <h2 id="fonts"> We Can Add Fonts From Two Ways</h2>
+    <ol>
+        <li> Web Safe Fonts </li>
+        <p class="Explain">Web safe fonts are fonts that are pre-installed by many operating systems. While not all systems have the same fonts installed, you can use a web safe font stack to choose several fonts that look similar, and are installed on the various systems that you want to support. </p>
+        <li>Web Fonts </li>
+        <p class="Explain"> Web Font Use By From Fonts Site Like,Google Fonts
+            Google Fonts Site is Best Site <a href="https://fonts.google.com/"> Here We Used Web Fonts From Google Fonts</a>
+        </p>
+    </ol>
+   <br> <hr>
+   <h1> &#9733;Color In CSS </h1>
+   
+   <h2> This is my First Box</h2>
+   <h2 id="FirstPara">This is a Paragraph from first box</h2>
+
+   <h2> This is my First Box</h2>
+   <h2 id="SecondPara">This is a Paragraph from Second box</h2>
+
+   <h2> This is my First Box</h2>
+   <h2 id="ThirdPara">This is a Paragraph from Third  box</h2> <br>
+   <h1> &#9733;We Can Use Color By 3 way</h1>
+   <ol>
+       <li> By Color Name </li>
+       <li> By RGB Value </li>
+       <li> By HEX Value </li>
+   </ol> <br> <hr>
+   <h1> &#9733; Height,width,borders,background</h1>
+   <h3> This is heading </h3>
+   <p id="firstPara"> This is a Paragraph </p>
+   <h3> This is Second heading </h3>
+   <p id="secondPara"> This is  second Paragraph </p>
+
+   <h3> This is Third heading </h3>
+   <p id="thirdPara"> This is  Third Paragraph ? </p>
+
+</body>
+</html>

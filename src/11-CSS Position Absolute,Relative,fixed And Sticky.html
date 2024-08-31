@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position -Absolute,Relative,fixed And Sticky</title>
+    <style>
+
+        .container{
+           border: 5px solid black;
+           background-color: rebeccapurple;
+           height: 3444px;
+        }
+        /* CSS Position -Static(default),Absolute,Relative,fixed And Sticky  */
+       .box{
+           border: 2px solid red;
+           width: 150px;
+           height: 150px;
+           margin: 2px;
+           display: inline-block;
+       }
+       #box1{
+            position: relative;
+            /* relative: Position the element relative to its normal position and will leave a gap at its normal position */
+       }
+       #box2{
+        position: absolute;
+        top: 34px;
+           left: 134px;
+           /* abosolute:Position the element relative  to the postion of its first position */
+       }
+       #box3{
+           position: fixed;
+           right: 4px;
+           bottom: 4px;
+           /* fixed: position element relative to the browser window; */
+          
+           
+           
+          
+           
+
+           
+       }
+       #box4{
+        position: sticky;
+           top: 3px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1"> 1-Position: relative;</div>
+        <div class="box" id="box2">2-Position: absolute;</div>
+        <div class="box" id="box3">3-Position:fixed</div>
+        <div class="box" id="box4">4-Position: sticky;</div>
+        
+    </div>
+</body>
+</html>
